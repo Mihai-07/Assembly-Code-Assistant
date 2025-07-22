@@ -81,6 +81,12 @@ streamlit run Home.py
 
 ---
 
+## Accessing the App via the Internet
+
+To try out the app online, click [AssemblyCodeAssistant](https://mihai-07-assemblycodeassistant.streamlit.app)
+
+---
+
 ## API Keys
 
 This project requires a DeepSeek API key for LLM access via OpenRouter.  
