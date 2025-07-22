@@ -61,8 +61,7 @@ streamlit run Home.py
 [uv](https://github.com/astral-sh/uv) is a fast Python package manager.
 
 ```bash
-uv init .
-uv add .
+uv add -r requirements.txt
 uv run streamlit run Home.py
 ```
 
