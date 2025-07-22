@@ -1,0 +1,8 @@
+faiss-cpu>=1.11.0.post1
+langchain>=0.3.26
+langchain-community>=0.3.27
+langchain-openai>=0.3.28
+pypdf>=5.8.0
+sentence-transformers>=5.0.0
+streamlit>=1.47.0
+watchdog>=6.0.0
