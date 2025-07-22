@@ -64,7 +64,7 @@ def call_model(question: str):
         "question": question
     }).content
 
-question = st.text_input(" ", placeholder="Ask anything (about the Assembly Programming Language)")
+question = st.text_input(" ", placeholder="Ask me anything")
 button = st.button("▶️ Send")
 
 if button:
