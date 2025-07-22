@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-title_text = "The LLM-Powered Assembly Assistant"
+title_text = "The LLM-Powered Assembly Coding Assistant"
 header_text = """
 🛠️ Welcome to the LLM-Powered Assembly Documentation Tool.
 Go to the 'Demo' Page to try it out!\n
