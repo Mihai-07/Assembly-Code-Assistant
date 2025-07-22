@@ -103,6 +103,6 @@ deepseek = "YOUR_DEEPSEEK_API_KEY"
 
 ## License
 
-MIT License (add your license here if different)
+[MIT License](LICENSE)
 
 ---
