@@ -64,15 +64,8 @@ def call_model(question: str):
         "question": question
     }).content
 
-col1, col2 = st.columns([85, 15])
-
-with col1:
-    st.markdown("#" * 6)
-    question = st.text_input(" ", placeholder="Ask anything (about the Assembly Programming Language)")
-
-with col2:
-    st.markdown("#" * 3)
-    button = st.button("▶️ Send")
+question = st.text_input(" ", placeholder="Ask anything (about the Assembly Programming Language)")
+button = st.button("▶️ Send")
 
 if button:
     if not question:
