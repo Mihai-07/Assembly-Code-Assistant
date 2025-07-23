@@ -1,6 +1,6 @@
-# LLM-Powered Assembly Assistant
+# Assembly-Code-Assistant
 
-Welcome to the **LLM-Powered Assembly Documentation Tool**! This project is an interactive, AI-powered assistant designed to help you explore and understand the Assembly programming language, with a focus on x86 Assembly. The assistant leverages large language models and a vector database of Assembly documentation to provide context-aware answers to your questions.
+Welcome to **Assembly-Code-Assistant**! This project is an interactive, AI-powered assistant designed to help you explore and understand the Assembly programming language, with a focus on x86 Assembly. The assistant leverages large language models and a vector database of Assembly documentation to provide context-aware answers to your questions.
 
 ## Features
 
@@ -11,16 +11,28 @@ Welcome to the **LLM-Powered Assembly Documentation Tool**! This project is an i
 
 ---
 
+## Quick Start
+
+1. Install dependencies (see below).
+2. Set your DeepSeek API key in `.streamlit/secrets.toml` (see API Keys section).
+3. Run the app:
+   ```bash
+   streamlit run Home.py
+   ```
+4. Open the Demo page to interact with the assistant!
+
+---
+
 ## Project Structure
 
 - **Home.py**  
-  The entry point of the app. Displays a welcoming animated title and introduction, and guides users to the Demo or About pages.
+  The entry point of the app. Shows a welcoming animated title and introduction, and guides users to the Demo or About pages.
 
 - **pages/Demo.py**  
   The core of the assistant. This page provides the interactive Q&A interface:
   - Accepts user questions about Assembly.
   - Retrieves relevant documentation from a local FAISS vector store (`x86-asm-docs/`).
-  - Uses a large language model (via OpenRouter and DeepSeek) to generate answers, streaming the response in real time.
+  - Uses a large language model (DeepSeek via OpenRouter) to generate answers, streaming the response in real time.
   - Warns users that answers are AI-generated and may contain inaccuracies.
 
 - **pages/About.py**  
